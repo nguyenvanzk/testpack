@@ -22,6 +22,8 @@
 		832B768A19650D4700F18917 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832B766E19650D4700F18917 /* CoreData.framework */; };
 		832B769219650D4700F18917 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 832B769019650D4700F18917 /* InfoPlist.strings */; };
 		832B769419650D4700F18917 /* testpackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 832B769319650D4700F18917 /* testpackTests.m */; };
+		83B1C172196513B00066EB2F /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B1C170196513B00066EB2F /* MainVC.m */; };
+		83B1C173196513B00066EB2F /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83B1C171196513B00066EB2F /* MainVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		832B768F19650D4700F18917 /* testpackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testpackTests-Info.plist"; sourceTree = "<group>"; };
 		832B769119650D4700F18917 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		832B769319650D4700F18917 /* testpackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testpackTests.m; sourceTree = "<group>"; };
+		83B1C16F196513B00066EB2F /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainVC.h; path = Classes/MainVC.h; sourceTree = "<group>"; };
+		83B1C170196513B00066EB2F /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainVC.m; path = Classes/MainVC.m; sourceTree = "<group>"; };
+		83B1C171196513B00066EB2F /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainVC.xib; path = Classes/MainVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,7 @@
 		832B767019650D4700F18917 /* testpack */ = {
 			isa = PBXGroup;
 			children = (
+				83B1C16E196513830066EB2F /* Classes */,
 				832B767919650D4700F18917 /* AppDelegate.h */,
 				832B767A19650D4700F18917 /* AppDelegate.m */,
 				832B767F19650D4700F18917 /* Images.xcassets */,
@@ -151,6 +157,16 @@
 				832B769019650D4700F18917 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83B1C16E196513830066EB2F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83B1C16F196513B00066EB2F /* MainVC.h */,
+				83B1C170196513B00066EB2F /* MainVC.m */,
+				83B1C171196513B00066EB2F /* MainVC.xib */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B1C173196513B00066EB2F /* MainVC.xib in Resources */,
 				832B767519650D4700F18917 /* InfoPlist.strings in Resources */,
 				832B768019650D4700F18917 /* Images.xcassets in Resources */,
 			);
@@ -249,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				832B767B19650D4700F18917 /* AppDelegate.m in Sources */,
+				83B1C172196513B00066EB2F /* MainVC.m in Sources */,
 				832B767719650D4700F18917 /* main.m in Sources */,
 				832B767E19650D4700F18917 /* testpack.xcdatamodeld in Sources */,
 			);
@@ -451,6 +469,7 @@
 				832B769919650D4700F18917 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		832B769A19650D4700F18917 /* Build configuration list for PBXNativeTarget "testpackTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +478,7 @@
 				832B769C19650D4700F18917 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
